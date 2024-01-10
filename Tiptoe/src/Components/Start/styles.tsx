@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
-export const wrapper =styled(motion.div)`
+export const Wrapper =styled(motion.div)`
 display: flex;
 justify content:center;
 flex-direction:column;
@@ -8,7 +8,7 @@ align-items:center;
 
 
 `;
-export const square =styled(motion.div)`
+export const Square =styled(motion.div)`
 width:150px;
 height:150px;
 display:flex;
